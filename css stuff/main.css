@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(20, 20, 20);
+}
+
+img.myface{
+    width: 300px;
+    border-radius: 20px;
+    float: center;
+    margin-left: 160px;
+  }
+  img.mich{
+    margin-top: 100px;
+    width: 100px;
+    border-radius: 20px;
+    float: left;
+    margin-left: 300px;
+  }
+   img.logo{
+    margin-top: 100px;
+    width: 100px;
+    border-radius: 20px;
+    float: right;
+    margin-right: 300px;
+  }
+
+  #Photo{
+    text-align: center;
+    font-size: small;
+    color: antiquewhite;
+  }
+  #Photoname{
+    color: rgb(221, 97, 157);
+  }
+  h1.top{
+    color: antiquewhite;
+    text-align: center;
+  }
+  p.top{
+    color: antiquewhite;
+    text-align: center;
+  }
+ 
+
+  a.cont{
+    margin-left: 10px;
+    border: solid 3px purple;
+    background-color: blueviolet;
+    border-radius: 100px;
+    color: antiquewhite;
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+   a.stuff{
+    height: 200px;
+    color: antiquewhite;
+    border: solid 3px purple;
+    background-color: blueviolet;
+    margin-left: 10px;
+    border-radius: 100px;
+    padding-left: 138px;
+    padding-right: 138px;
+
+  }
+
+
+
+
+/* 
+  h2.proj{
+    color: antiquewhite;
+    text-align: center;
+    border-style: solid;
+    border-color:aqua;
+    border-width: 3px;
+    width: 200px;
+    height: 300px;
+  }  
+  h2.exp{
+    color: antiquewhite;
+    text-align: center;
+    border-style: solid;
+    border-color:red;
+    border-width: 3px;
+    width: 200px;
+    height: 300px;
+  }
+  h2.a_r{
+    color: antiquewhite;
+    text-align: center;
+    border-style: solid;
+    border-color:rgb(111, 0, 41);
+    border-width: 3px;
+    width: 200px;
+    height: 300px;
+  } */
