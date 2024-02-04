@@ -1,21 +1,23 @@
-body{
+#box1{
   background-color: rgb(20, 20, 20);
-}
+  padding-bottom: 100px;
 
-img.myface{
+} 
+
+#myface{
     width: 300px;
     border-radius: 20px;
     float: center;
     margin-left: 160px;
   }
-  img.mich{
+#mich{
     margin-top: 100px;
     width: 100px;
     border-radius: 20px;
     float: left;
     margin-left: 300px;
   }
-   img.logo{
+#logo{
     margin-top: 100px;
     width: 100px;
     border-radius: 20px;
@@ -23,25 +25,35 @@ img.myface{
     margin-right: 300px;
   }
 
-  #Photo{
+#Photo{
     text-align: center;
     font-size: small;
     color: antiquewhite;
   }
-  #Photoname{
+#Photoname{
     color: rgb(221, 97, 157);
   }
-  h1.top{
-    color: antiquewhite;
-    text-align: center;
-  }
-  p.top{
-    color: antiquewhite;
-    text-align: center;
-  }
- 
 
-  a.cont{
+a.prbox{
+    border: 3px rgb(246, 181, 96) solid;
+    border-radius: 20px;
+    width: 350px;
+    font-size: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    margin-left: 10px;
+  }
+
+
+h1.top{
+    color: antiquewhite;
+    text-align: center;
+  }
+p.top{
+    color: antiquewhite;
+    text-align: center;
+  }
+a.cont{
     margin-left: 10px;
     border: solid 3px purple;
     background-color: blueviolet;
@@ -50,46 +62,38 @@ img.myface{
     padding-left: 140px;
     padding-right: 140px;
   }
-   a.stuff{
-    height: 200px;
-    color: antiquewhite;
+
+/* Project slide*/
+#box2{
+  padding-top: 20px;
+  padding-bottom: 80px;
+  background-color: rgb(25, 25, 25);
+}
+
+p.title-p{
+  font-size: 50px;
+  text-align: center;
+  padding-left: 20px;
+  color: antiquewhite;
+}
+p.cont-p{
+  padding-left: 20px;
+  color: antiquewhite;
+  text-align: center;
+}
+a.proj-box{
+    margin-left: 10px;
     border: solid 3px purple;
     background-color: blueviolet;
-    margin-left: 10px;
     border-radius: 100px;
-    padding-left: 138px;
-    padding-right: 138px;
-
+    color: antiquewhite;
+    padding-left: 140px;
+    padding-bottom: 100px;
+    padding-right: 140px;
   }
 
-
-
-
-/* 
-  h2.proj{
-    color: antiquewhite;
-    text-align: center;
-    border-style: solid;
-    border-color:aqua;
-    border-width: 3px;
-    width: 200px;
-    height: 300px;
-  }  
-  h2.exp{
-    color: antiquewhite;
-    text-align: center;
-    border-style: solid;
-    border-color:red;
-    border-width: 3px;
-    width: 200px;
-    height: 300px;
+  #myface1{
+    width: 50px;
+    border-radius: 10px;
+    float: center;
   }
-  h2.a_r{
-    color: antiquewhite;
-    text-align: center;
-    border-style: solid;
-    border-color:rgb(111, 0, 41);
-    border-width: 3px;
-    width: 200px;
-    height: 300px;
-  } */
