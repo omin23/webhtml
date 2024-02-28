@@ -20,31 +20,60 @@
     </div>
         <!-- The photos -->
     <div>
-      <a href="aboutme.html">
-        <img id="myface" src="images/headshot.png" alt="My face">
-      </a>
-      <a>
-        <img id="mich" src="images/U-M_Logo-Hex-2.png">
-      </a>
-      <a>
-        <img id="logo" src="images/logo-64x64.png">
-      </a>
-      <br>
-      <p id="Photo">
-          Photo taken by <a id="Photoname" href="https://www.instagram.com/leshchiianna">@AnnaLeshchii</a>
-      </p> 
+    
+    <a href="aboutme.html">
+      <img id="myface" src="images/headshot.png" alt="My face">
+    </a>
+    <a>
+      <img id="mich" src="images/U-M_Logo-Hex-2.png">
+    </a>
+    <a>
+      <img id="logo" src="images/logo-64x64.png">
+    </a>
+
+
+    <p id="Photo">
+      Photo taken by <a id="Photoname" href="https://www.instagram.com/leshchiianna">@AnnaLeshchii</a>
+    </p> 
     </div> 
-    <!-- Links and sections -->
-    <div>
-      <p>
-        <a class="cont" href="https://www.instagram.com/omi.n_/">@Omin.n</a>
-        <a class="cont" href="https://www.linkedin.com/in/omkar-nayak-umk/">Linkedin</a>
-        <a class="cont" href="https://github.com/omin23">Github</a>
-        <a class="cont" href="https://docs.google.com/document/d/1HDPXaMJhBmmlvXx9HfC9C8DjrDwf6x70/edit#heading=h.gjdgxs">Research</a>
-      </p>
+      <!-- the icons -->
+  <div id = "box1">
+   
+    <div class="container">
+      <div class = "opbox1">
+        <a href="https://www.instagram.com/omi.n_/"  target="_blank">
+          <img id="logo1" src="images/insta.png">
+        </a>
+      </div>
+      <div class = "opbox"></div>
+      <div class = "opbox"></div>
+      <div class = "opbox"></div>
+      <div class = "opbox1">
+        <a href="https://www.linkedin.com/in/omkar-nayak-umk/" target="_blank">
+          <img id="logo2" src="images/linkin.png">
+        </a>
+      </div>
+      <div class = "opbox"></div>
+      <div class = "opbox"></div>
+      <div class = "opbox"></div>
+      <div class = "opbox1">
+        <a href="https://github.com/omin23"   target="_blank">
+          <img id="logo3" src="images/Github.png">
+        </a>
+      </div>
+      <div class = "opbox"></div>
+      <div class = "opbox"></div>
+      <div class = "opbox"></div>
+      <div class = "opbox1">
+        <a href="https://docs.google.com/document/d/1HDPXaMJhBmmlvXx9HfC9C8DjrDwf6x70/edit#heading=h.gjdgxs" target="_blank">
+          <img id="logo4" src="images/logo-64x64.png">
+        </a>
+      </div>
     </div>
   </div>
-  <!-- Projects -->
+
+   
+<!-- Projects -->
   <div id = "box2">
     <h1 class = "subtitle">Projects !</h1>
     <div class="container">
@@ -64,8 +93,8 @@
         Idk let's see how this Turns out. 
         Icons used for the thing.
       </p>
-      </div>
-      <!--SMTh-->
+    </div>
+      <!--PROJECTS -->
       <div class="box">
         <h2 class = "phtext">Smths else</h2>
         <p class = "ptext">
@@ -117,5 +146,77 @@
       </p>
     </div>
   </div>
+  <div id = "opening_box">
+
+  </div>
+
+<!--RESEARCH-->
+  <div id = "box3">
+    <h1 class = "subtitle">Notable Research</h1>
+    <div class="rcontainer">
+      <!--AI in Education-->
+      <a href="https://docs.google.com/document/d/1HDPXaMJhBmmlvXx9HfC9C8DjrDwf6x70/edit?usp=sharing&ouid=102080321777339236572&rtpof=true&sd=true" target="_blank">
+      <div class="rbox">
+        <h2 class = "phtext">AI in Education</h2>
+        <p class = "ptext">
+          Collaborated directly with Princeton PhD candidate Hirsh Guha to research ways on how best to use AI/ML in education, and wrote a 22-page paper soon to be published in the Young Global Scientist Journal
+          <br>
+        </p>
+      </div>
+    </a>
+    <!--PD in NN5-->
+    <a href="https://drive.google.com/file/d/10Na-TQXJQ75pGmlT5P3d7gfbgDnA7tAA/view?usp=share_link" target="_blank">
+      <div class="rbox">
+        <h2 class = "phtext">The Role of Partial Derivatives in Neural Networks</h2>
+        <p class = "ptext">
+          Not exactly sure what I will put here but this looks pretty cool.
+          <br>
+      </div>
+    </a>
+      <!--Ai in Business-->
+    <a href="https://drive.google.com/file/d/1MBMorYkmoMV9y2w6w8VuWgr1IrF9o_2B/view?usp=sharing" target="_blank">
+      <div class="rbox">
+        <h2 class = "phtext">Lessons from Facebook and Amazon in their implementation of AI/ML.
+        </h2>
+        <p class = "ptext">
+          These are my class projects!
+          <br>
+      </div>
+    </a>
+  </div>
+
+<!--CONTACT MEE-->
+<div id = "box4">
+  <form onsubmit="sendEmail(); reset(); return false;">
+    <h1 class = "subtitle">Contact Me</h1>
+    <input type="text" id="Name" placeholder="Your Name" required>
+    <br>
+    <input type="text" id="Email" placeholder="Your Email" required>
+    <br>
+    <textarea id="message" rows="4" placeholder= "Tell Me Anything!"></textarea>
+    <br>
+    <button type="submit">Send</button>
+  </form> 
+  
+  <!-- SENDING THE EMAIL-->
+  <script sc ="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+      Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "omkaromkar5555@gmail.com",
+      Password : "01012005",
+      To : 'omkarn@umich.edu',
+      From : document.getElementById("Email").value,
+      Subject : "Contact from website",
+      Body : "And this is the body"
+      }).then(message => alert(message));
+  }
+  </script>
+
+
+
+</div>
+
 </body>
 </html>
